@@ -1,0 +1,38 @@
+/* Home.css */
+.home-container {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.banner {
+    background-color: #007bff;
+    color: white;
+    padding: 50px 20px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+.banner h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+.home-content .button {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: white;
+    background-color: #28a745;
+    text-decoration: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.home-content .button:hover {
+    background-color: #218838;
+    transform: translateY(-2px);
+}

@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.home, .create-quiz, .quiz-list, .take-quiz {
+  padding: 20px;
+}
+
+.button {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form input, form button {
+  margin: 5px;
+}
+
+.quiz-results {
+  padding: 20px;
+}
